@@ -1,16 +1,50 @@
-# todo_app
+# Todo App
 
-A new Flutter project.
+A simple and intuitive Flutter-based todo application that helps users manage their daily tasks and stay productive.
+
+## Features
+
+✅ **Task Management**
+- Create and organize daily tasks
+- Set task priorities
+- Track task completion status
+
+📊 **Daily Progress Tracking**
+- Monitor your daily task completion
+- Visual progress indicators
+
+💾 **Local Storage**
+- All tasks are stored locally on your device
+- No internet connection required
+- Data persists between app sessions
+
+🔔 **Smart Notifications**
+- **Celebration notifications** when you complete all daily tasks
+- **Encouragement notifications** to motivate you throughout the day
+- **Reminder notifications** for incomplete tasks before the day ends
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
+- Flutter SDK
+- Dart
 
-A few resources to get you started if this is your first Flutter project:
+### Installation
+1. Clone this repository
+2. Run 'flutter pub get'
+3. Run 'flutter run'
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Project Structure
+This project follows Clean Architecture principles with features organized by domain:
+- **Data Layer**: Local data storage using Hive
+- **Domain Layer**: Business logic and use cases
+- **Presentation Layer**: UI components and state management with Cubit
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Technologies Used
+- Flutter & Dart
+- Hive (Local Storage)
+- BLoC/Cubit (State Management)
+- Local Notifications
+
+## Author
+Nourhan Salama
